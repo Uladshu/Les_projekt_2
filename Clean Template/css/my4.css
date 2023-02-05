@@ -1,0 +1,15 @@
+h1{
+	font-size: 2em;
+	font-family: Verdane, geneva,sans-serif;
+	border-bottom: dotted 4px green;
+	padding-bottom: 3px;
+}
+.subform{
+	font-size: 1,5em;
+	color: green;}
+.subform lable {
+	display: inline-block;
+	width: 300px;
+	vertical-align: top;
+
+}

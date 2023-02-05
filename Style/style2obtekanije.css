@@ -1,0 +1,17 @@
+body{
+	background-image: url(../foto/kuby-figury-cube-figures-fon-blue-yellow-fon-sinii.jpg);/*gif,jpg,png,svg*/
+	color: rgba(255, 255, 255, 1.0);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	float: left;
+	/*background-attachment: fixed;*/
+
+}
+h1{
+	font-size: 7em;
+
+}
+p{
+	font-size: 5em;
+}

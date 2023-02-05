@@ -1,0 +1,45 @@
+ul.nav_button {
+	margin-top: 60px;/*Odstęp od "I ilowe css" w dół*/
+	margin-bottom: 96px;/*Odstęp od treści zdołu*/
+	padding-left: 0 px;
+	margin-left: 0 px;
+
+}
+ul.nav_button a{
+	border: solid 2px rgb(200, 28, 28);/*To nie jest obowiązkowe jeżeli mamy "background"*/
+	padding: 0px 7px 0px 7px;/*odstępu w środku prycisków*/
+	background-color: rgb(200, 28, 28);/*Kolor tła przycisków*/
+	margin: 10px; /*Odstępy prycisków od siebie*/
+	text-decoration: none;/*Usunięcie podkreślenia linków*/
+	color: black;/*Kolor tekstu*/
+	border-radius: 9px;/*Zaokreglenie tła*/
+	transition-property: background-color; ;/*płynna zmiana : teg do którego to będzie wykorzystane*/
+	transition-duration: 1s;/*Czas trwania płynnej any*/
+}
+ul.nav_button li{
+	display: inline-block;/*wyrównuje bloki poziomo*/
+	transition-property: transform;/*płynna zmiana : teg do którego to będzie wykorzystane*/
+	transition-duration: 1s/*Czas trwania płynnej zmiany*/
+}
+ul.nav_button li:hover{
+	transform: scale(1.4);
+
+}
+ul.nav_button a:hover{
+	border: solid 2px rgb(300, 28, 28);
+	background-color: rgb(300, 28, 28);
+	text-decoration: none;
+	color: black;
+}
+img#pink{
+	float: left;
+	width: 110px;
+	height: 110px;
+	transition-property: transform;
+	transition-duration: 1s;
+}
+img#pink:hover {
+	float: left;
+	transform: scale(1.1);
+width: 110px;
+height:110px;}

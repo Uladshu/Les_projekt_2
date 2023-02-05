@@ -1,0 +1,27 @@
+body{
+	padding: 30px;
+}
+
+.test2{
+	padding: 20px;
+	border: 1px solid green;
+	margin: 30px;
+	background: red;
+	border-radius: 16px 0px 2px 50px ;
+	box-shadow: 2px 4px 4px #bd936b;
+	width: 500px;/*wymuszajaca szerokość*/
+	height: 160px;/*wymuszająca wysokość*/
+	box-sizing: border-box; /*robi tak żeby padding margin i t.p nie mieli wpływu na rozmiar który ustawiamy za pomocą WIGHT i HEIGHT. "300px = 300px"*/
+	overflow: auto;/*wklejanie skrolu*/
+}
+.test3{
+	padding: 20px;
+	border: 1px solid green;
+	margin: 30px;
+	background: red;
+	border-radius: 40px/70px ;
+	box-shadow: 2px 4px 4px #bd936b;
+	max-width: 600px;/*wymuszająca szerokość*/
+	min-height: 500px;/*wymuszająca wysokość*/
+
+	}

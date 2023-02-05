@@ -1,0 +1,44 @@
+body{
+	background: rgba(50, 122, 160, 0.9);/*rgb(A) a=0.9 to procent przezroczystości*/
+	padding: 0px 30px 0px 30px; /*Odzstępy wewnętrzne*//*0px (góra) 20px (prawo) 20px(duł) 20px(Lewo)*/
+	margin: 0px 0px 0px 0px; /*Odzstępy zewnętrzne*//*0px (góra) 20px (prawo) 20px(duł) 20px(Lewo)*/
+}
+article{
+	margin: 0 auto;
+	max-width: 1005px;
+	min-width: 1005px;
+}
+p{
+	color: rgb(255, 255, 255);
+	font-size: 20px; /*(PX) lub (EM) lub (%)*/
+	font-family: ;/*szrifty*/
+}
+h1, h2,h3{
+	color: rgb(255, 255, 255);
+	font-family: Arial, "Palatino LInotype" serif;
+	border-bottom: 2px solid darkred;
+	padding-top: 40px;
+	padding-bottom: ;
+}
+h1{
+	font-size: 32px;
+}
+#logo{
+	font-family: Baskerville, palatino, sans-serif;
+	font-size: 2em;
+	color: rgba(255, 123, 255, 0.9);
+	font-style: italic;
+	text-align: center;
+	background: rgb(190, 23, 43);
+	border-radius: 00px 00px 20px 20px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.note{
+	color: #000000;
+	border:2px solid #fff;
+	background: rgb(69, 189, 102);
+	margin-top: 20px;
+	margin-bottom: 30px;
+	padding: 18px;
+}

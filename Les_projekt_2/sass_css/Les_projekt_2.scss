@@ -1,0 +1,70 @@
+.card-car {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 28px 132px;
+}
+
+
+
+.card {
+   position: relative;
+   background-color: white;
+   border-radius: 30px;
+   width: 532px;
+   margin:23px;
+   padding: 10px;
+   overflow: hidden;
+//
+   display: flex;// позиционирование елемента 
+   flex-direction: column;//wyrównanie w kolumnę
+   //flex-direction: row;//wyrównanie w linię
+}
+body {
+   background-color: #DBDBDB;
+}
+.card-car {
+   padding: 0px;
+   &__description {
+      display: flex;//blok może przyjmować parematy "fleksu" 
+      flex-direction: column;
+      align-items: center;//wyrównanie poziome
+   }
+   &__status {
+      position: absolute;
+      font-size: 25px;
+      padding: 7px 18px;
+      border: solid opx;
+      border-radius: 100px;
+      backdrop-filter: blur(10px);
+      margin: 33px 0px 0px 23px;
+      color: #E7E7E7;
+   }
+   &__name {
+      font-size: 42px;
+      margin-bottom: 0px;
+   }
+   &__price {
+      font-size: 40px;
+      color: #84A2B6;
+      margin-bottom: 48px;
+   }
+   &__data {
+      display: grid;
+      grid-template-columns: 1fr 1fr ;
+      grid-gap: 28px 132px;
+      font-size: 30px;
+      margin-bottom: 45px;
+   }
+   &__reserwation {
+      font-size: 35px;
+      padding: 23px 107px ;
+      border: solid;
+      border-radius: 100px;
+      background-color: #E7E7E7;
+      border-color: #E7E7E7;
+      margin-bottom: 45px;
+   }
+}
+
+
+
