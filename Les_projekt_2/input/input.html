@@ -7,15 +7,33 @@
    <title>Document</title>
 </head>
 <body>
-   <div>
-         <p class="label-title" >Ваши данные</p>
-         <input type="text" name="pas" placeholder="Имя">
-         <input type="text" name="pas" placeholder="Номер телефона">
-   </div>
-   <div>
-         <p class="label-title">Выберите локацию</p>
-         <input type="se" name="pas" placeholder="Pick-up location ">
-         <input type="text" name="pas" placeholder="Drop-off location">
-   </div>
+      <div>
+            <p class="label-title" >Ваши данные</p>
+                  <input type="text" name="pas" placeholder="Имя">
+                  <input type="text" name="pas" placeholder="Номер телефона">
+      </div>
+      <div>
+      <p class="label-title">Выберите локацию</p>
+            <select name="Pick-up location" required>
+                  <option value="">Pick-up location</option>
+                  <option value="1">Wrocław</option>
+                  <option value="2">Warszawa</option>
+                  <option value="3">Poznań</option>
+                  <option value="4">Białystok</option>
+                  <option value="5">Gnańsk</option>
+                  <option value="6">Katowice</option>
+            </select>
+            <select name="Drop-off location" required>
+                  <option value="">Drop-off location</option>
+                  <option value="1">Wrocław</option>
+                  <option value="2">Warszawa</option>
+                  <option value="3">Poznań</option>
+                  <option value="4">Białystok</option>
+                  <option value="5">Gnańsk</option>
+                  <option value="6">Katowice</option>
+            </select>
+            
+      </div>
+
 </body>
 </html>
