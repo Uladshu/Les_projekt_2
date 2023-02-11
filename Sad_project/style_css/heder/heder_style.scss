@@ -1,0 +1,74 @@
+body {
+   background-color: #cccc;
+   margin: 0px;
+}
+header {
+   background-image: url(../../foto/Rectangle.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   padding-bottom: 450px;
+   background-position: center;
+}
+.top-menu{
+   //position: relative;
+   display: flex;
+   .top-left-ikons{
+      color: white;
+         .header-logo {
+            width: 68px;
+            height: 58px;
+            margin-left: 120px;
+            margin-top: 20px;
+            }
+         .name-sait {
+            font-size: 32px;
+            margin-top: 35px;
+            margin-left: 16px;
+            }  
+   }
+   .top-right-menu {
+      margin: 0 0 0 auto;
+      margin-top: 40px;
+      margin-right: 30px;
+      color: white;
+      div {
+         margin-left: 20px;
+         font-size: 26px;}
+            .sing-in-btn {
+               padding: 5px 23px;
+               margin-top: -3px;
+               border: solid 2px;
+               border-color: #CD6326;
+               border-radius: 5px;
+               text-align: center;
+               display:inline-block;
+            }
+   }
+}
+.top-site-inf {
+   display: flexbox;
+   flex-direction: column;
+   position: relative;
+      .top-main-tematik {
+         font-size: 48px;
+         color: #CD6326;
+         position: relative;
+         margin: 120px 0px 51px 120px;
+      }
+      .top-main-information {
+         font-size: 20px;
+         color: white;
+         position: relative;
+         margin: 0px 0px 50px 120px;
+         width: 230px;
+         text-align: justify;
+      }
+      .top-main-btn {
+         font-size: 27px;
+         color: white;
+         background-color:#CD6326;
+         position: relative;
+         margin-left: 120px;
+         padding: 16px 42px;
+      }
+}
