@@ -4,16 +4,17 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/scss/input_style.css">
    <title>Document</title>
 </head>
 <body>
-      <div>
-            <p class="label-title" >Ваши данные</p>
-                  <input type="text" name="pas" placeholder="Имя">
-                  <input type="text" name="pas" placeholder="Номер телефона">
+      <div class="label-title" >Ваши данные</div>
+      <div class="input-group">
+            <input  type="text" name="pas" placeholder="Имя">
+            <input type="text" name="pas" placeholder="Номер телефона">
       </div>
-      <div>
-      <p class="label-title">Выберите локацию</p>
+      <div class="label-title">Выберите локацию</div>
+      <div class="input-group section-title">
             <select name="Pick-up location" required>
                   <option value="">Pick-up location</option>
                   <option value="1">Wrocław</option>
@@ -32,7 +33,6 @@
                   <option value="5">Gnańsk</option>
                   <option value="6">Katowice</option>
             </select>
-            
       </div>
 
 </body>
