@@ -1,12 +1,15 @@
-@charset "UTF-8";
 body {
   background-color: rgba(204, 204, 204, 0.8);
-  margin: 0px;
-  background-image: url(../../foto/Rectangle.png);
+}
+
+.fox-fon {
+  background-image: url(../../../Images/Rectangle.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 780px;
+  min-height: 780px;
+  margin-bottom: 120px;
+  background-color: #0f4106;
 }
 
 .trans-1 {
@@ -20,13 +23,12 @@ body {
 .top-menu {
   color: white;
   display: flex;
-  margin-top: 25px;
 }
 .top-menu .menu-item-left {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  margin: 0px 0px 0px 120px;
+  margin: 20px 0px 0px 120px;
 }
 .top-menu .menu-item-left__header-logo {
   width: 68px;
@@ -56,11 +58,6 @@ body {
   background-color: rgba(227, 85, 2, 0.5333333333);
 }
 
-.top-sait-inf {
-  display: flexbox;
-  flex-direction: column;
-  position: relative;
-}
 .top-sait-inf .tematik {
   font-size: 48px;
 }
@@ -85,69 +82,10 @@ body {
   margin-left: 120px;
   padding: 16px 42px;
   border-radius: 5px;
-  margin-bottom: 500px;
 }
 
-.central-sait-inf {
-  text-align: center;
-}
-.central-sait-inf__main-center-information {
-  font-size: 48px;
-  text-align: center;
-  margin-bottom: 20px;
-}
-.central-sait-inf__scondary-center-information {
-  font-size: 24px;
-  text-align: center;
-  margin-bottom: 140px;
-}
-
-/* Слайдер */
-.slick-slider {
-  position: relative;
-}
-
-/* Ограничивающая оболочка */
-.slick-list {
-  overflow: hidden;
-  justify-content: center;
-}
-
-/* Лента слайдов */
-.slick-track {
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-}
-
-.slider {
-  position: relative;
-  min-width: 0;
-  padding: 0px 120px;
-  margin: 0px 120px;
-  min-width: 1000px;
-  /* Стрелка */
-  /* Стрелка влево */
-  /* Стрелка вправо */
-}
-.slider .slick-arrow {
-  position: absolute;
-  top: 50%;
-  z-index: 20;
-  height: 40px;
-  font-size: 0;
-  width: 30px;
-  height: 40px;
-}
-.slider .slick-prev {
-  left: 0;
-  background: url(../../foto/arrow_L.svg) 0 0 no-repeat;
-}
-.slider .slick-next {
-  right: 0;
-  background: url(../../foto/arrow_R.svg) 0 0 no-repeat;
-}
-
-.slider__item {
-  justify-content: center;
+.container {
+  width: 100%;
+  margin: auto;
+  max-width: 1600px;
 }/*# sourceMappingURL=heder_style.css.map */
