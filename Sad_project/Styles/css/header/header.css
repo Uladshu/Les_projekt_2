@@ -3,13 +3,18 @@ body {
 }
 
 .fox-fon {
-  background-image: url(../../../Images/Rectangle.png);
+  background-image: url(../../../Images/fox.svg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   min-height: 780px;
   margin-bottom: 120px;
   background-color: #0f4106;
+}
+
+.container {
+  max-width: 1700px;
+  margin: auto;
 }
 
 .trans-1 {
@@ -23,12 +28,14 @@ body {
 .top-menu {
   color: white;
   display: flex;
+  justify-content: center;
+  padding-top: 20px;
 }
 .top-menu .menu-item-left {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  margin: 20px 0px 0px 120px;
+  margin: 0px 0px 0px 120px;
 }
 .top-menu .menu-item-left__header-logo {
   width: 68px;
@@ -82,10 +89,4 @@ body {
   margin-left: 120px;
   padding: 16px 42px;
   border-radius: 5px;
-}
-
-.container {
-  width: 100%;
-  margin: auto;
-  max-width: 1600px;
-}/*# sourceMappingURL=heder_style.css.map */
+}/*# sourceMappingURL=header.css.map */

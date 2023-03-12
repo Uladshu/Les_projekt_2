@@ -1,13 +1,10 @@
 @charset "UTF-8";
-.central-sait-inf {
-  text-align: center;
-}
 .central-sait-inf__main-center-information {
   font-size: 48px;
   text-align: center;
   margin-bottom: 20px;
 }
-.central-sait-inf__scondary-center-information {
+.central-sait-inf__secondary-center-information {
   font-size: 24px;
   text-align: center;
   margin-bottom: 140px;
@@ -16,16 +13,16 @@
 /* Слайдер */
 .slick-slider {
   position: relative;
-  position: relative;
   text-align: center;
-  display: flex;
+  max-width: 80%;
   margin: auto;
+  min-width: 700px;
 }
 
 /* Ограничивающая оболочка */
 .slick-list {
   overflow: hidden;
-  justify-content: center;
+  margin: 0 5%;
 }
 
 /* Лента слайдов */
@@ -62,7 +59,6 @@
 .slider-item {
   position: relative;
   color: white;
-  padding: auto;
 }
 .slider-item__text-regular-ui {
   position: absolute;
@@ -83,4 +79,35 @@
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
-}/*# sourceMappingURL=center_style.css.map */
+}
+
+.input-group {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 240px;
+}
+.input-group__eml-stand {
+  width: 540px;
+  height: 60px;
+  border: solid #666666;
+  font-style: rgb(60, 59, 59);
+  padding-left: 20px;
+}
+.input-group__send-eml-btn {
+  background-color: #CD6326;
+  width: 120px;
+  height: 60px;
+  border-radius: 0 10px 10px 0;
+  color: white;
+}
+.input-group__send-eml-btn:hover {
+  border-radius: 10px;
+}
+
+.secondary-center-information {
+  font-size: 24px;
+  text-align: center;
+}
+.secondary-center-information__over-eml {
+  margin: 240px 0 60px 0;
+}/*# sourceMappingURL=center.css.map */

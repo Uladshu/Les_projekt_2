@@ -1,0 +1,46 @@
+.footer {
+   background-image: url(../../../Images/Rectangle.svg);
+   height: 360px;
+   }
+   .rtest{
+   }
+.footer-information {
+   color: white;
+   font-size: 32px;
+   display: flex;
+   align-items: center;
+   padding-top: 180px;
+
+      &__menu-item-left{
+         display: flex;
+         margin-right: auto;
+         align-items: center;
+         margin-left: 120px;
+            .footer-logo {
+            }
+            .footer-name-sait {
+               margin-left: 25px;
+            }
+      }
+      &__menu-item-center {
+         display: flex;
+         margin: auto;
+         align-items: center;
+         .btn-articles {
+            margin-right: 85px;
+         }
+         .btn-about-us{
+            margin-right: 85px;
+         }
+         .btn-learn-more{
+         }
+      }
+      &__menu-item-right {
+         display: flex;
+         margin-left: auto;
+         margin-right: 120px;
+         .social-icon{
+            margin-right: 20px;
+         }
+      }
+}
